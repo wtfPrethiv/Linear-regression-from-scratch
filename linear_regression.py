@@ -5,6 +5,7 @@ import math
 class LinearRegression:
 
     def __init__(self, x, y ,alpha=0.001, iter_num=10000):
+        
         self.x = x
         self.y = y
         self.alpha = alpha
