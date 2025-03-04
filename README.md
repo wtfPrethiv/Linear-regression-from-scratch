@@ -31,7 +31,7 @@ The model follows these steps:
 1. Install NumPy: `pip install numpy`
 2. Load dataset and preprocess features.
 3. Train the model using the provided **vectorized gradient descent**.
-4. Make predictions using `predict(X_test)`.
+4. Make predictions using `regression(X_test)`.
 
 ## 🛠️ Future Improvements
 - Implement **regularization (L1/L2)** to avoid overfitting.
